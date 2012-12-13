@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id = "@+id/generalTable"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" >
+
+        	<TextView 
+		android:id="@+id/text1" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"  
+		android:text="Share avaliable connection"
+		android:textSize="20sp"/>
+        	
+        	<CheckBox 
+		android:id="@+id/CheckBox1" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:textSize="20sp" />
+	
+    </TableRow>
+
+   <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="20sp" >
+
+        	<TextView 
+		android:id="@+id/text2" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"  
+		android:text="Consume available connection"
+		android:textSize="20sp"/>
+        	
+        	<CheckBox 
+		android:id="@+id/CheckBox2" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content" 
+		android:textSize="20sp"/>
+	
+    </TableRow>
+    
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" >
+
+        	<TextView 
+		android:id="@+id/text3" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"  
+		android:text=""
+		android:textSize="20sp"/>
+        	
+        	<CheckBox 
+		android:id="@+id/CheckBox3" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:textSize="20sp" />
+	
+    </TableRow>
+   
+</TableLayout>

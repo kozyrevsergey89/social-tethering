@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+           	<TextView 
+		android:id="@+id/text41" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"  
+		android:text="You are"
+		android:textSize="20sp"/>
+    
+    
+  <TableRow
+        android:id="@+id/tableRow41"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" >
+
+        	<TextView 
+		android:id="@+id/text42" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"  
+		android:text="60 %  -  "
+		android:textSize="20sp"/>
+        	
+        	<EditText 
+		android:id="@+id/EditText41" 
+		android:layout_height="wrap_content" 
+		android:layout_width="wrap_content" 
+		android:text="consumer"
+		android:textSize="20sp"/>
+        	</TableRow>
+
+        	<TableRow
+        android:id="@+id/tableRow42"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" >
+        	
+        	        	<TextView 
+		android:id="@+id/text43" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"  
+		android:text="40 %  -  "
+		android:textSize="20sp"/>
+        	
+        	<EditText 
+		android:id="@+id/EditText42" 
+		android:layout_height="wrap_content" 
+		android:layout_width="wrap_content" 
+		android:text="producer"
+		android:textSize="20sp"/>
+        	
+        		
+    </TableRow>
+    
+      	<Button 
+		android:id="@+id/button41" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content" 
+		android:text="Share your result"
+		android:textSize="20sp"/>
+  
+      	</TableLayout>

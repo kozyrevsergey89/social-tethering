@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/LinearLayout01" 
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent" 
+	android:orientation="vertical">
+    
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+
+    <TableRow
+        android:id="@+id/tableRow31"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" >
+
+        	<TextView 
+		android:id="@+id/text31" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"  
+		android:text="Share to everybody"
+		android:textSize="20sp"/>
+        	
+        	<CheckBox 
+		android:id="@+id/CheckBox31" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:textSize="20sp" />
+	
+    </TableRow>
+
+   <TableRow
+        android:id="@+id/tableRow32"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" >
+
+        	<TextView 
+		android:id="@+id/text32" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"  
+		android:text="Share to friends"
+		android:textSize="20sp"/>
+        	
+        	<CheckBox 
+		android:id="@+id/CheckBox32" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:textSize="20sp" />
+	
+    </TableRow>
+    
+    <TableRow
+        android:id="@+id/tableRow33"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" >
+
+        	<TextView 
+		android:id="@+id/text33" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"  
+		android:text="Share to specific friends"
+		android:textSize="20sp"/>
+        	
+        	<CheckBox 
+		android:id="@+id/CheckBox33" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:textSize="20sp" />
+	
+    </TableRow>
+   	
+    </TableLayout>
+    
+   	<Button 
+		android:id="@+id/button31" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content" 
+		android:text="Add friend"
+		android:textSize="20sp"/>
+       
+   		<TextView 
+		android:id="@+id/text34" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"  
+		android:text="Friends:"
+		android:textSize="20sp"/>
+
+ 
+    
+        
+<ListView
+		android:id="@android:id/list"
+		android:layout_width="fill_parent" 
+		android:layout_height="fill_parent"
+		android:drawSelectorOnTop="false"/>
+        
+       </LinearLayout>    
