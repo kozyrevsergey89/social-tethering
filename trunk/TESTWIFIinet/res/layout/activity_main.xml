@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+ android:id="@+id/scroll" 
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"> 
+<LinearLayout 
+    android:id="@+id/scroll_vert" 
+ android:layout_width="fill_parent" 
+ android:layout_height="wrap_content"
+ android:orientation="vertical">  
+    <LinearLayout
+        android:id="@+id/LinearLayout1"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:weightSum="2" >
+
+         <TextView 
+  android:id="@+id/text1" 
+  android:layout_width="fill_parent" 
+  android:layout_height="wrap_content"  
+  android:text="Share available connection"
+  android:layout_gravity="left"
+  android:textSize="20sp"
+  android:layout_weight="1"/>
+
+         <CheckBox
+             android:id="@+id/CheckBox1"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:textSize="20sp" />
+ 
+    </LinearLayout>
+
+   <LinearLayout
+       android:orientation="horizontal"
+        android:id="@+id/LinearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="20sp" 
+        android:weightSum="2">
+
+         <TextView 
+  android:id="@+id/text2" 
+  android:layout_width="wrap_content" 
+  android:layout_height="wrap_content"  
+  android:text="Consume available connection"
+  android:layout_weight="1"
+  android:textSize="20sp"/>
+         
+         <CheckBox 
+  android:id="@+id/CheckBox2" 
+  android:layout_width="wrap_content" 
+  android:layout_height="wrap_content" 
+  android:textSize="20sp"
+  android:layout_weight="1"/>
+ 
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/LinearLayout21"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal" 
+        android:weightSum="2">
+
+         <TextView 
+  android:id="@+id/text21" 
+  android:layout_width="wrap_content" 
+  android:layout_height="wrap_content"  
+  android:text="Minimum battery"
+  android:textSize="20sp"
+  android:layout_weight="1"
+  />
+         
+         <EditText 
+  android:id="@+id/EditText21" 
+  android:layout_height="wrap_content" 
+  android:layout_width="wrap_content" 
+  android:text="50 %"
+  android:textSize="20sp"
+  android:layout_weight="1"
+  />
+ 
+    </LinearLayout>
+
+   <LinearLayout
+        android:id="@+id/LinearLayout22"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal" 
+        android:weightSum="2">
+
+         <TextView 
+  android:id="@+id/text22" 
+  android:layout_width="wrap_content" 
+  android:layout_height="wrap_content"  
+  android:text="Maximum consumers"
+  android:textSize="20sp"
+  android:layout_weight="1"
+  />
+         
+        <EditText 
+  android:id="@+id/EditText22" 
+  android:layout_height="wrap_content" 
+  android:layout_width="wrap_content" 
+  android:text="10"
+  android:textSize="20sp"
+  android:layout_weight="1"
+  />
+ 
+    </LinearLayout>
+   
+
+      <LinearLayout
+          android:id="@+id/LinearLayout31"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:orientation="horizontal" 
+          android:weightSum="2">
+  
+           <TextView 
+    android:id="@+id/text31" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"  
+    android:text="Share to everybody"
+    android:textSize="20sp"
+    android:layout_weight="1"/>
+           
+           <CheckBox 
+    android:id="@+id/CheckBox31" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:textSize="20sp" 
+    android:layout_weight="1"/>
+   
+      </LinearLayout>
+
+   <LinearLayout
+        android:id="@+id/LinearLayout32"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal" 
+        android:weightSum="2">
+
+         <TextView 
+  android:id="@+id/text32" 
+  android:layout_width="wrap_content" 
+  android:layout_height="wrap_content"  
+  android:text="Share to friends"
+  android:textSize="20sp"
+  android:layout_weight="1"/>
+         
+         <CheckBox 
+  android:id="@+id/CheckBox32" 
+  android:layout_width="wrap_content" 
+  android:layout_height="wrap_content"
+  android:textSize="20sp" 
+  android:layout_weight="1"/>
+ 
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/LinearLayout33"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal" 
+        android:weightSum="2">
+
+         <TextView 
+  android:id="@+id/text33" 
+  android:layout_width="wrap_content" 
+  android:layout_height="wrap_content"  
+  android:text="Share to specefic friends"
+  android:textSize="20sp"
+  android:layout_weight="1"/>
+         
+         <CheckBox 
+  android:id="@+id/CheckBox33" 
+  android:layout_width="wrap_content" 
+  android:layout_height="wrap_content"
+  android:textSize="20sp" 
+  android:layout_weight="1"/>
+ 
+    </LinearLayout>
+    
+   
+    <Button 
+  android:id="@+id/button31" 
+  android:layout_width="wrap_content" 
+  android:layout_height="wrap_content" 
+  android:text="Add friend"
+  android:textSize="20sp"/>
+       
+     <TextView 
+  android:id="@+id/text34" 
+  android:layout_width="wrap_content" 
+  android:layout_height="wrap_content"  
+  android:text="Friends:"
+  android:textSize="20sp"/>
+
+ 
+    
+        
+<ListView
+  android:id="@android:id/list"
+  android:layout_width="fill_parent" 
+  android:layout_height="fill_parent"
+  android:drawSelectorOnTop="false"/>
+        
+       
+    
+    
+      
+    
+    
+    
+    
+    
+  <LinearLayout
+        android:id="@+id/LinearLayout41"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" 
+        android:weightSum="3">
+	
+      
+            <TextView 
+  android:id="@+id/text41" 
+  android:layout_width="wrap_content" 
+  android:layout_height="wrap_content"  
+  android:text="You are"
+  android:textSize="20sp"
+  android:layout_weight="1"/>
+      
+         <TextView 
+  android:id="@+id/text42" 
+  android:layout_width="wrap_content" 
+  android:layout_height="wrap_content"  
+  android:text="60 %  -  "
+  android:textSize="20sp"
+  android:layout_weight="1"/>
+         
+         <TextView 
+  android:id="@+id/EditText41" 
+  android:layout_height="wrap_content" 
+  android:layout_width="wrap_content" 
+  android:text="consumer"
+  android:textSize="20sp"
+  android:layout_weight="1"/>
+         </LinearLayout>
+
+         <LinearLayout
+        android:id="@+id/LinearLayout42"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical" 
+        android:weightSum="2">
+         
+                  <TextView 
+  android:id="@+id/text43" 
+  android:layout_width="wrap_content" 
+  android:layout_height="wrap_content"  
+  android:text="40 %  -  "
+  android:textSize="20sp"
+  android:layout_weight="1"/>
+         
+         <EditText 
+  android:id="@+id/EditText42" 
+  android:layout_height="wrap_content" 
+  android:layout_width="wrap_content" 
+  android:text="producer"
+  android:textSize="20sp"
+  android:layout_weight="1"/>
+         
+          
+    </LinearLayout>
+    
+       <Button 
+  android:id="@+id/button41" 
+  android:layout_width="wrap_content" 
+  android:layout_height="wrap_content" 
+  android:text="Share your result"
+  android:textSize="20sp"/>
+  
+</LinearLayout> 
+       </ScrollView>
